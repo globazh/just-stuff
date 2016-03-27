@@ -1,6 +1,10 @@
 @font-face {
   font-family: 'BentonSans-Regular';
   src: url(../fonts/BentonSans-Regular.ttf)format('truetype'); /* Safari, Android, iOS */
+  font-family: 'BentonSans-Bold';
+  src: url(../fonts/BentonSans-Bold.ttf)format('truetype'); /* Safari, Android, iOS */
+  font-family: 'BentonSans-Medium';
+  src: url(../fonts/BentonSans-Medium.ttf)format('truetype'); /* Safari, Android, iOS */
 }
 
 body {
@@ -21,7 +25,14 @@ body {
     3x: 700px
 */
 
+h1, h2, h3, h4, h5 {
+  font-family: 'BentonSans-Bold';
+  font-weight: 700;
+}
 
+h2 {
+  font-size: 30px;
+}
 
 /*Styles for Header*/
 .header {
@@ -147,34 +158,10 @@ body {
   margin: auto;
 }
 
-.textTitle {
-  color: #9A61A6;
-  text-decoration: none;
-  font-size: 30px;
-  font-family: Gergia;
-}
-
 .historyText2 {
   width: 681px;
   height: 138px;
   margin: auto;
-}
-
-.textTitle {
-  color: #9A61A6;
-  text-decoration: none;
-  font-style: italic;
-  font-size: 30px;
-  font-family: BentonSans-Regular;
-  font-weight: bold;
-}
-
-.textText{
-  color: #000000;
-  text-decoration: none;
-  font-size: 40px;
-  font-family: BentonSans-Regular;
-  font-weight: bold;
 }
 
 .historyRight {
@@ -302,6 +289,7 @@ body {
 h1.title {
   font-size: 30px;
   font-weight: 700;
+  font-family: BentonSans-Bold;
 }
 
 .subFeatureWrapper {
@@ -378,6 +366,7 @@ h2.chapter {
   color: #9A61A6;
   font-style: italic;
   font-weight: bold;
+  font-family: BentonSans-Bold;
 }
 
 h2.adTitle {
