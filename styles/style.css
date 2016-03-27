@@ -1,0 +1,414 @@
+@font-face {
+  font-family: BentonSans-Regular;
+  src: url(../fonts/BentonSans-Regular.ttf);
+}
+
+body {
+  background-color: #fff;
+  font-family: BentonSans-Regular;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+  1024px - (3 * 30) / 4
+  gutter: 30px
+  column
+    1x: 204px
+    2x: 437px
+    3x: 700px
+*/
+
+
+
+/*Styles for Header*/
+.header {
+  height: 82px;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 5px solid #9A61A6;
+  position: fixed;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* margin: top left bottom right */
+  /* margin: top/bottom left/right */
+}
+
+.logo {
+  width: 40%;
+  height: 100%;
+}
+
+.logoBox {
+  width: 211px;
+  height: 59px;
+  background-image: url(../images/logo.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.linksBlock {
+  margin-top: 48px;
+  width: 50%;
+  height: 100%;
+}
+
+.firstRaw {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.secondRaw {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 13px;
+}
+
+.menu-link {
+  color: #9A61A6;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: BentonSans-Regular;
+}
+
+.searchBlock {
+  width: 10%;
+  height: 100%;
+}
+
+.search {
+  width: 70px;
+  height: 20px;
+  background-color: white;
+  background-image: url(../images//search.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.signIn {
+  width: 58px;
+  height: 20px;
+  background-color: white;
+  background-image: url(../images//signIn.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* end of header styles */
+
+.wrapper {
+  padding-top: 82px;
+}
+
+/*Styles for History Section*/
+.history {
+  padding-top: 27px;
+  background-color: #FFF4E5;
+}
+
+.historyContainer {
+  padding: 0 60px;
+  margin: 0 auto;
+  width: 1024px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.historyLeft {
+  margin-right: 30px;
+}
+
+.historyPhoto {
+  width: 672px;
+  height: 354px;
+  background-image: url(../images/main.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.historyText1 {
+  height: 49px;
+  margin: auto;
+}
+
+.textTitle {
+  color: #9A61A6;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Gergia;
+}
+
+.historyText2 {
+  width: 681px;
+  height: 138px;
+  margin: auto;
+}
+
+.textTitle {
+  color: #9A61A6;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 30px;
+  font-family: BentonSans-Regular;
+  font-weight: bold;
+}
+
+.textText{
+  color: #000000;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: BentonSans-Regular;
+  font-weight: bold;
+}
+
+.historyRight {
+  width: 204px;
+}
+
+.historyMainBlock {
+  height: 535px;
+  width: 204px;
+  background-color: #FFFFFF;
+  border: 1px solid #9A61A6;
+}
+
+.historyBlock1 {
+  height: 146px;
+  width: 204px;
+}
+
+.historyBlock1Text {
+  height: 131px;
+  width: 170px;
+  border-bottom: 1px solid #979797;
+  margin: auto;
+}
+
+.historyBlockTitle {
+  color: #000000;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: BentonSans-Regular;
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+.historyBlockTextText {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: BentonSans-Regular;
+  font-weight: regular;
+  margin-top: 4px;
+}
+
+.historyBlockTextItallic {
+  color: #72748D;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: BentonSans-Regular;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.historyBlock2 {
+  height: 87px;
+  width: 204px;
+}
+
+.historyBlock2Text {
+  height: 87px;
+  width: 170px;
+  border-bottom: 1px solid #979797;
+  margin: auto;
+}
+
+.historyBlock3 {
+  height: 144px;
+  width: 204px;
+}
+
+.historyBlock3Text {
+  height: 129px;
+  width: 170px;
+  border-bottom: 1px solid #979797;
+  margin: auto;
+}
+
+.historyBlock4 {
+  height: 90px;
+  width: 204px;
+}
+
+.historyBlock4Text {
+  height: 70px;
+  width: 170px;
+  /*margin: auto;*/
+}
+
+.historyBlock5Text {
+  height: 20px;
+  width: 170px;
+  margin: auto;
+  color: #9A61A6;
+  font-size: 13px;
+  font-family: BentonSans-Regular;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+/*============================================================
+======= Styles for News Section
+============================================================*/
+.news {
+  background-color: white;
+}
+
+.newsContainer {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 60px 60px 40px;
+  display: flex;
+}
+
+.superFeatureWrapper {
+  width: 50%;
+}
+
+.sfPicture {
+  width: 437px;
+  height: 262px;
+  background-image: url(../images/newspicture.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1.title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.subFeatureWrapper {
+  margin-left: 30px;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+}
+
+.subFeature {
+  margin-top: 25px;
+  height: 261px;
+  width: 204px;
+  background-image: url(../images//news1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.subFeature.first {
+  margin-top: 0px;
+}
+
+.smallFeatureWrapper {
+  margin-left: 30px;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+}
+
+.smallFeature {
+  height: 120px;
+  width: 204px;
+  background-image: url(../images//news5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*============================================================
+======= Styles for Advertasing
+============================================================*/
+.advertising {
+  background-color: #FFF4E5;
+}
+
+.adContainer {
+  display: flex;
+}
+
+.advertisingLeft {
+  height: 100%;
+  width: 75%;
+}
+
+.advertisingPhoto {
+  width: 672px;
+  height: 295px;
+  margin: auto;
+  background-image: url(../images//city1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 27px;
+  margin-left: 57px;
+}
+
+.advertisingPhotoTitle {
+  width: 672px;
+  height: 49px;
+  margin-left: 57px;
+}
+
+.advertisingPhotoTitle2 {
+  width: 672px;
+  height: 119px;
+  margin-left: 57px;
+}
+
+.advertisingRight {
+  height: 100%;
+  width: 25%;
+}
+
+.advertisingMainBlock {
+  height: 463px;
+  width: 207px;
+  margin-top: 28px;
+}
+
+.advertisingRightTextBlock {
+  height: 463px;
+  width: 207px;
+  background-image: url(../images//wow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
+/*Styles for Advertising2*/
+.advertising2 {
+  height: 512px;
+  background-color: white;
+}
+
+/*Styles for Footer*/
